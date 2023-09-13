@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HybridJavaSeleniumAutomationFramework">
+<listeners> 
+	<listener class-name="Listeners.com.tnp.qa.FrameWorkListeners" />
+</listeners>
+  <test  name="Automation TestCases TNP">
+    <classes>
+		<class name="TestCases.com.tnp.qa.RegistrationTest"/>
+      	<class name="TestCases.com.tnp.qa.LoginTest"/>
+	    <class name="TestCases.com.tnp.qa.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
